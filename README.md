@@ -2,6 +2,8 @@
 
 # 🛍️ Online Shop Express
 
+![Online Shop Express](./screenshots/home.png)
+
 A modern, responsive E-Commerce web application built with **React**, **Redux Toolkit**, and **Vite**.
 
 A modern E-Commerce application focused on building scalable frontend architecture using React, Redux Toolkit, reusable components, asynchronous API integration, and responsive UI design.

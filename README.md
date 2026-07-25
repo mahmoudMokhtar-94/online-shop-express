@@ -14,7 +14,7 @@ A modern E-Commerce application focused on building scalable frontend architectu
 ![Axios](https://img.shields.io/badge/Axios-5A29E4?logo=axios&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-### 🔗 [Live Demo](https://online-shop-one-alpha.vercel.app/) • [Repository](https://github.com/mahmoudMokhtar-94/online-shop-express)
+### 🔗 [Live Demo](https://online-shop-express.vercel.app) • [Repository](https://github.com/mahmoudMokhtar-94/online-shop-express)
 
 </div>
 
@@ -155,7 +155,51 @@ DummyJSON API
 
 # 📸 Screenshots
 
-> Screenshots will be added soon.
+## 🏠 Home
+
+![Home](./screenshots/home.png)
+
+---
+
+## 🔑 Login
+
+![Login](./screenshots/login.png)
+
+---
+
+## 📂 Browse by Category
+
+![Category](./screenshots/category.png)
+
+---
+
+## 🔍 Search Results
+
+![Search Results](./screenshots/search-results.png)
+
+---
+
+## 💡 Search Suggestions
+
+![Search Suggestions](./screenshots/search-suggestions.png)
+
+---
+
+## 📦 Product Details
+
+![Product Details](./screenshots/product-details.png)
+
+---
+
+## 🛒 Shopping Cart
+
+![Cart](./screenshots/cart.png)
+
+---
+
+## ❤️ Favorites
+
+![Favorites](./screenshots/favorites.png)
 
 ```text
 screenshots/

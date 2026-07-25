@@ -14,7 +14,7 @@ A modern E-Commerce application focused on building scalable frontend architectu
 ![Axios](https://img.shields.io/badge/Axios-5A29E4?logo=axios&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-### 🔗 [Live Demo](#) • [Repository](#)
+### 🔗 [Live Demo](https://online-shop-one-alpha.vercel.app/) • [Repository](https://github.com/mahmoudMokhtar-94/online-shop-express)
 
 </div>
 

@@ -8,6 +8,9 @@ import "swiper/css/pagination";
 
 // import required modules
 import { Autoplay, Pagination } from "swiper/modules";
+import bannerHero1 from "../../images/banner_Hero1.jpg";
+import bannerHero2 from "../../images/banner_Hero2.jpg";
+import bannerHero3 from "../../images/banner_Hero3.jpg";
 
 function HeroSlider() {
   return (
@@ -41,7 +44,7 @@ function HeroSlider() {
             </Link>
           </div>
           <img
-            src="/src/images/banner_Hero1.jpg"
+            src={bannerHero1}
             alt="Banner 01- of Home Slider"
             className="block size-full object-cover"
           />
@@ -67,7 +70,7 @@ function HeroSlider() {
             </Link>
           </div>
           <img
-            src="/src/images/banner_Hero2.jpg"
+            src={bannerHero2}
             alt="Banner 02- of Home Slider"
             className="block size-full object-cover"
           />
@@ -93,7 +96,7 @@ function HeroSlider() {
             </Link>
           </div>
           <img
-            src="/src/images/banner_Hero3.jpg"
+            src={bannerHero3}
             alt="Banner 03- of Home Slider"
             className="block size-full object-cover"
           />

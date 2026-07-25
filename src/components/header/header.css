@@ -1,0 +1,22 @@
+/* Start of Btm Header Styles */
+.category-nav-list a:last-of-type {
+  border-bottom: none;
+}
+
+.nav-links ul li.active {
+  background-color: var(--active_color);
+}
+
+.category-nav-list {
+  /*To Initially Hide The Categories */
+  clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  /* To Smoothen the transition from completely hidden to completely visible */
+  transition: clip-path 0.3s ease;
+  -webkit-transition: clip-path 0.3s ease;
+}
+
+.category-nav-list.active {
+  /* To Show The Categories On Click */
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+/* End of Btm Header Styles */

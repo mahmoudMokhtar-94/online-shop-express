@@ -1,0 +1,39 @@
+@import "tailwindcss";
+/* (Inter + DM Sans) Google Fonts  */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+/* Start of Global Styles  */
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #fff;
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+}
+:root {
+  --main_color: #0090f0;
+  --active_color: #0079ca;
+  --p_color: #7b7b7b;
+  --bg_color: #f3f3f3;
+  --color_heading: #253237;
+  --border_color: #d6d6d6d5;
+  --dark_gray_color: #6b7280;
+}
+/* End of Global Styles  */
+
+/* تنسيقات عامة ربما أحذفها مستقبلا */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "DM Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+/* تنسيقات عامة ربما أحذفها مستقبلا */

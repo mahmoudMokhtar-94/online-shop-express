@@ -1,0 +1,42 @@
+.product-card:hover .product-card-actions {
+  right: 15px;
+}
+
+.product-title,
+.product-price {
+  font-family: "Inter", sans-serif;
+}
+
+.star-icon {
+  fill: #f8d941;
+  stroke: none;
+}
+
+.product-card .in-cart-label {
+  top: -40px;
+}
+
+.product-card.active-product-card .in-cart-label {
+  transition: linear 0.3s;
+  top: 20px;
+}
+
+.product-card.active-product-card .cart-btn,
+.product-card.in-favorite-product .fav-btn {
+  background-color: #0090f0;
+}
+
+.product-card.active-product-card .cart-icon,
+.product-card.in-favorite-product .heart-icon {
+  color: #fff;
+}
+
+.product-card.active-product-card {
+  border-color: #0090f0;
+}
+
+.in-fav-icon {
+  background-color: #0090f0;
+  color: #fff;
+  border-color: #0090f0;
+}

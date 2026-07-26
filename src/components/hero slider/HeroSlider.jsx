@@ -14,7 +14,7 @@ import bannerHero3 from "../../images/banner_Hero3.jpg";
 
 function HeroSlider() {
   return (
-    <div className="hero w-[90%] mx-auto my-7 relative">
+    <div className="py-5 w-[90%] mx-auto my-7 relative">
       <Swiper
         loop={true}
         pagination={true}
@@ -26,7 +26,7 @@ function HeroSlider() {
         className="mySwiper size-full"
       >
         {/* Start Slide 01  */}
-        <SwiperSlide className="text-[18px] bg-gray-100 h-[420px]">
+        <SwiperSlide className="text-[18px] bg-gray-100">
           <div className="content absolute top-1/2 -translate-y-1/2 left-[5%]">
             <h4 className="uppercase text-[15px] sm:text-[1.3vw] italic font-normal">
               introducing the new

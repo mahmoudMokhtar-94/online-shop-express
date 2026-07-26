@@ -8,13 +8,14 @@ import "swiper/css/pagination";
 
 // import required modules
 import { Autoplay, Pagination } from "swiper/modules";
+
 import bannerHero1 from "../../images/banner_Hero1.jpg";
 import bannerHero2 from "../../images/banner_Hero2.jpg";
 import bannerHero3 from "../../images/banner_Hero3.jpg";
 
 function HeroSlider() {
   return (
-    <div className="py-5 w-[90%] mx-auto my-7 relative">
+    <div className="w-[95%] lg:w-[90%] mx-auto my-7">
       <Swiper
         loop={true}
         pagination={true}
@@ -23,85 +24,142 @@ function HeroSlider() {
           delay: 2500,
           disableOnInteraction: false,
         }}
-        className="mySwiper size-full"
+        className="
+          h-[250px]
+          sm:h-[320px]
+          md:h-[400px]
+          lg:h-[500px]
+          xl:h-[580px]
+          rounded-xl
+          overflow-hidden
+        "
       >
-        {/* Start Slide 01  */}
-        <SwiperSlide className="text-[18px] bg-gray-100">
-          <div className="content absolute top-1/2 -translate-y-1/2 left-[5%]">
-            <h4 className="uppercase text-[15px] sm:text-[1.3vw] italic font-normal">
-              introducing the new
-            </h4>
-            <h3 className="capitalize text-[17px] sm:text-[2.8vw] font-extrabold leading-[1.1] mb-7 text-[var(--main_color)]">
-              microsoft x box <br /> 360 controller
-            </h3>
-            <p className="text-[var(--p_color)] text-[14px] sm:text-[1.1vw] mt-2 mb-10">
-              Windows Xp/7/8/10 Ps3, Tv Box
-            </p>
-            <Link to="/" className="capitalize">
-              <button className="py-1 px-4  sm:px-10 sm:py-1.25 text-[16px] sm:text-[18px]  bg-[var(--main_color)] text-white capitalize rounded-2xl cursor-pointer transition-transform duration-300 hover:scale-105 sm:hover:scale-107">
-                shop now
-              </button>
-            </Link>
-          </div>
+        {/* Slide 1 */}
+        <SwiperSlide className="relative">
           <img
             src={bannerHero1}
-            alt="Banner 01- of Home Slider"
-            className="block size-full object-cover"
+            alt="Banner 01"
+            className="w-full h-full object-cover"
           />
-        </SwiperSlide>
-        {/* End Slide 01  */}
 
-        {/* Start Slide 02  */}
-        <SwiperSlide className="text-[18px] bg-gray-100 h-[420px]">
-          <div className="content absolute top-1/2 -translate-y-1/2 left-[5%]">
-            <h4 className="uppercase text-[15px] sm:text-[1.3vw] italic font-normal">
-              introducing the new
+          <div className="absolute inset-0 bg-black/15"></div>
+
+          <div
+            className="
+              absolute
+              top-1/2
+              -translate-y-1/2
+              left-4
+              sm:left-8
+              md:left-12
+              lg:left-16
+              z-10
+              max-w-[240px]
+              sm:max-w-[320px]
+              md:max-w-[420px]
+            "
+          >
+            <h4 className="uppercase italic font-normal text-xs sm:text-sm md:text-base">
+              Introducing the new
             </h4>
-            <h3 className="capitalize text-[17px] sm:text-[2.8vw] font-extrabold leading-[1.1] mb-7 text-[var(--main_color)]">
-              microsoft x box <br /> 360 controller
+
+            <h3 className="mt-2 text-xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight text-[var(--main_color)]">
+              Microsoft X Box
+              <br />
+              360 Controller
             </h3>
-            <p className="text-[var(--p_color)] text-[14px] sm:text-[1.1vw] mt-2 mb-10">
-              Windows Xp/7/8/10 Ps3, Tv Box
+
+            <p className="mt-3 mb-5 text-xs sm:text-sm md:text-base text-gray-200">
+              Windows XP / 7 / 8 / 10 • PS3 • TV Box
             </p>
-            <Link to="/" className="capitalize">
-              <button className="py-1 px-4  sm:px-10 sm:py-1.25 text-[16px] sm:text-[18px]  bg-[var(--main_color)] text-white capitalize rounded-2xl cursor-pointer transition-transform duration-300 hover:scale-105 sm:hover:scale-107">
-                shop now
+
+            <Link to="/">
+              <button
+                className="
+                  px-4 py-2
+                  sm:px-6 sm:py-2
+                  md:px-8 md:py-3
+                  text-sm
+                  sm:text-base
+                  lg:text-lg
+                  bg-[var(--main_color)]
+                  text-white
+                  rounded-full
+                  transition
+                  hover:scale-105
+                "
+              >
+                Shop Now
               </button>
             </Link>
           </div>
+        </SwiperSlide>
+
+        {/* Slide 2 */}
+        <SwiperSlide className="relative">
           <img
             src={bannerHero2}
-            alt="Banner 02- of Home Slider"
-            className="block size-full object-cover"
+            alt="Banner 02"
+            className="w-full h-full object-cover"
           />
-        </SwiperSlide>
-        {/* End Slide 02  */}
 
-        {/* Start Slide 03  */}
-        <SwiperSlide className="text-[18px] bg-gray-100 h-[420px]">
-          <div className="content absolute top-1/2 -translate-y-1/2 left-[5%]">
-            <h4 className="uppercase text-[15px] sm:text-[1.3vw] italic font-normal">
-              introducing the new
+          <div className="absolute inset-0 bg-black/20"></div>
+
+          <div className="absolute top-1/2 -translate-y-1/2 left-4 sm:left-8 md:left-12 lg:left-16 z-10 max-w-[240px] sm:max-w-[320px] md:max-w-[420px]">
+            <h4 className="uppercase italic font-normal text-xs sm:text-sm md:text-base">
+              Introducing the new
             </h4>
-            <h3 className="capitalize text-[17px] sm:text-[2.8vw] font-extrabold leading-[1.1] mb-7 text-[var(--main_color)]">
-              microsoft x box <br /> 360 controller
+
+            <h3 className="mt-2 text-xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight text-[var(--main_color)]">
+              Microsoft X Box
+              <br />
+              360 Controller
             </h3>
-            <p className="text-[var(--p_color)] text-[14px] sm:text-[1.1vw] mt-2 mb-10">
-              Windows Xp/7/8/10 Ps3, Tv Box
+
+            <p className="mt-3 mb-5 text-xs sm:text-sm md:text-base text-gray-200">
+              Windows XP / 7 / 8 / 10 • PS3 • TV Box
             </p>
-            <Link to="/" className="capitalize">
-              <button className="py-1 px-4  sm:px-10 sm:py-1.25 text-[16px] sm:text-[18px]  bg-[var(--main_color)] text-white capitalize rounded-2xl cursor-pointer transition-transform duration-300 hover:scale-105 sm:hover:scale-107">
-                shop now
+
+            <Link to="/">
+              <button className="px-4 py-2 sm:px-6 sm:py-2 md:px-8 md:py-3 text-sm sm:text-base lg:text-lg bg-[var(--main_color)] text-white rounded-full transition hover:scale-105">
+                Shop Now
               </button>
             </Link>
           </div>
+        </SwiperSlide>
+
+        {/* Slide 3 */}
+        <SwiperSlide className="relative">
           <img
             src={bannerHero3}
-            alt="Banner 03- of Home Slider"
-            className="block size-full object-cover"
+            alt="Banner 03"
+            className="w-full h-full object-cover"
           />
+
+          <div className="absolute inset-0 bg-black/20"></div>
+
+          <div className="absolute top-1/2 -translate-y-1/2 left-4 sm:left-8 md:left-12 lg:left-16 z-10 max-w-[240px] sm:max-w-[320px] md:max-w-[420px]">
+            <h4 className="uppercase italic font-normal text-xs sm:text-sm md:text-base">
+              Introducing the new
+            </h4>
+
+            <h3 className="mt-2 text-xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight text-[var(--main_color)]">
+              Microsoft X Box
+              <br />
+              360 Controller
+            </h3>
+
+            <p className="mt-3 mb-5 text-xs sm:text-sm md:text-base text-gray-200">
+              Windows XP / 7 / 8 / 10 • PS3 • TV Box
+            </p>
+
+            <Link to="/">
+              <button className="px-4 py-2 sm:px-6 sm:py-2 md:px-8 md:py-3 text-sm sm:text-base lg:text-lg bg-[var(--main_color)] text-white rounded-full transition hover:scale-105">
+                Shop Now
+              </button>
+            </Link>
+          </div>
         </SwiperSlide>
-        {/* End Slide 03  */}
       </Swiper>
     </div>
   );
